@@ -115,7 +115,7 @@ def make_window():
         elif afterfile.flag() ==2:
             messagebox.showinfo("エラー","画像サイズが正しくありません")
     main_win = tk.Tk()
-    main_win.title("change_image_paksize")
+    main_win.title("lightmap merging")
     main_win.geometry("500x200")
     main_frm = ttk.Frame(main_win)
     main_frm.grid(column=0, row=0, sticky=tk.NSEW, padx=5, pady=10)
